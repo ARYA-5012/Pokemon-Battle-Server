@@ -1,0 +1,39 @@
+{
+  "server": {
+    "name": "Pokémon Battle Simulation Server",
+    "version": "1.0.0",
+    "description": "MCP server for Pokémon data and battle simulation"
+  },
+  "pokemon_api": {
+    "base_url": "https://pokeapi.co/api/v2",
+    "timeout": 30,
+    "cache_size": 1000
+  },
+  "battle": {
+    "max_turns": 50,
+    "default_level": 50,
+    "status_effects": {
+      "paralysis": {
+        "movement_chance": 0.25,
+        "speed_reduction": 0.5
+      },
+      "burn": {
+        "damage_per_turn": 1,
+        "attack_reduction": 0.5
+      },
+      "poison": {
+        "damage_per_turn": 1
+      },
+      "sleep": {
+        "wake_chance": 0.33
+      },
+      "freeze": {
+        "thaw_chance": 0.20
+      }
+    }
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  }
+}
