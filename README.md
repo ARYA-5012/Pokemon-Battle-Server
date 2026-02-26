@@ -172,3 +172,19 @@ MIT License - feel free to use and modify.
 ---
 
 **Ready to battle?** Start with `python interactive_battle.py` or `streamlit run app.py` 🏆
+
+
+## 👨‍💻 Author
+
+<table>
+<tr>
+<td align="center">
+<strong>Arya Yadav</strong><br>
+Bennett University<br>
+<a href="mailto:aryayadav5012@gmail.com">📧 Email</a> |
+<a href="https://github.com/yourusername">🐙 GitHub</a>
+</td>
+</tr>
+</table>
+
+---
